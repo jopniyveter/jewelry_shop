@@ -873,14 +873,6 @@ body {
   opacity: 0.5;
 }
 
-.new-towar-top-favorite {
-  cursor: pointer;
-}
-
-.new-towar-top-favorite:hover svg g {
-  opacity: 1;
-}
-
 .new-towar-img {
   margin-bottom: 10px;
   width: 100%;
@@ -932,10 +924,6 @@ body {
 @media (max-width: 767px) {
   .new-title {
     margin-bottom: 70px;
-  }
-  .new-pagination,
-  .new-sliders {
-    display: none;
   }
   .new {
     padding: 70px 0 100px;
