@@ -21,6 +21,25 @@ html, body {
   font-size: 14px;
 }
 
+.theme-button
+{
+  font-size: 14px;
+  line-height: 120%;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #000000;
+  background: rgba(158, 175, 194, 0.643);
+  transition: 0.5s;
+}
+
+.theme-button:hover
+{
+  background: #6f9fcf;
+  transition: 0.5s;
+}
+
 input, button, textarea {
   font-family: inherit;
 }
@@ -749,6 +768,14 @@ body {
   padding: 150px 0 200px;
 }
 
+.container-new {
+  max-width: 1360px;
+  padding: 15px;
+  margin: auto;
+  background-color: #d6d6d63e;
+  border-radius: 15px;
+}
+
 .new-title {
   color: var(--black);
   margin-bottom: 50px;
@@ -987,7 +1014,7 @@ body {
 .footer-left-numbers {
   font-size: 12px;
   color: var(--black);
-  opacity: 0.2;
+  opacity: 0.5;
   margin-bottom: 49px;
 }
 
